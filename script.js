@@ -21,7 +21,6 @@ finishPage = () =>{
     var rate = document.getElementById("rate");
     var principal = document.getElementById("principal");
     var years = document.getElementById("years");
-    years = document.getElementById("years");
     for(i=1; i<=10; i++){
     	let element = document.createElement("option")
     	element.innerText = i
